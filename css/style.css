@@ -1,0 +1,117 @@
+:root {
+  --dark-color: #19283f;
+  --yellow-color: rgb(255, 187, 0);
+}
+
+body {
+  font-size: 15px;
+  line-height: 24px;
+  font-family: 'futura_ltbook', sans-serif;
+  color: #484848;
+ 
+}
+
+#scrollUp {
+  background: url(../img/top.png)no-repeat scroll 0 0;
+  bottom: 20px;
+  color: #000;
+  height: 40px;
+  right: 20px;
+  width: 40px;
+  opacity:0.7;
+}
+.bgyellow {
+  background-color: var(--yellow-color);
+}
+.navbar {
+  background-color: var(--dark-color);
+}
+.navbar-brand {
+  color: var(--yellow-color);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar-brand h6 {
+  color: white;
+}
+.navbar .navbar-toggler {
+  color: white;
+  font-size: 20px;
+  border-color: white;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: white;
+}
+.navbar .navbar-nav .nav-link .active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+  color: var(--yellow-color);
+}
+.carousel-inner {
+  height: 500px;
+}
+.button {
+  background-color: var(--yellow-color);
+  color: white;
+}
+.c {
+  color: var(--yellow-color);
+
+}
+.head h3 {
+  color: var(--yellow-color);
+  
+}
+.carousel-inner .carousel-caption {
+  bottom: 100px;
+}
+.carousel-caption h1 {
+  font-weight: 700;
+}
+.ligg{
+ margin-top: 55px;
+ background: #f2f7fa none repeat scroll 0 0;
+}
+
+.font {
+  
+  font-size: 40px;
+  
+  border-radius: 50%;
+  box-shadow: 0 0 0 10px #ffcb0f, 0 0 0 20px #fadb64, 0 0 0 30px #f7e59c;
+  padding: 20px;
+  
+    
+}
+.footer {
+  background-image: url(../img/6.png);
+  height: auto;
+  background-attachment: fixed;
+}
+footer .row {
+  background-color: rgba(0, 0, 0, 0.8);
+  height: auto;
+}
+.icons {
+  display: flex;
+  
+}
+.icon {
+  background-color: var(--yellow-color);
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px ;
+}
+
+
+.icon:hover {
+    opacity: 0.6;
+}
+.height{
+  line: 100px;
+}
